@@ -57,6 +57,7 @@
        (! :project "core.match" :name "Pattern match and predicate dispatch")
        (! :project "core.memoize" :name "A manipulable, pluggable, memoization framework")
        (! :project "core.rrb-vector" :name "RRB-Tree-based Vectors")
+       (! :project "core.specs.alpha" :name "Specs for Clojure core")
        (! :project "core.typed" :name "Gradual Typing"
           :collect-prefix-forms "(require 'clojure.core.typed) (clojure.core.typed/load-if-needed)"
           :source-path ["module-check/src/main/clojure" "module-rt/src/main/clojure"
@@ -81,6 +82,7 @@
        (! :project "math.combinatorics" :name "Lazy sequences for common combinatorial functions")
        (! :project "math.numeric-tower" :name "Math functions")
        ;; (! :project "test.benchmark" :name "Benchmark suite")
+       (! :project "spec.alpha" :name "Describing the structure of data and functions with specs")
        (! :project "test.generative" :name "Test data generation and execution harness")
        (! :project "tools.analyzer" :name "Analyzer for Clojure code"
                     :external-autodoc-dirs ["spec"])
